@@ -7,19 +7,19 @@ below are instruction on how to use Azure Data Share between two different Azure
 2. create storage account for data provider
 3. create a container
 4. create a data share resource
-a. it will be created a managed identity automatically
+	a. it will be created a managed identity automatically
 
 5. configure the data that will be shared in "data share" resource
-a. select your storage account/container
+	a. select your storage account/container
 
 6. configure RBAC for specific user/group that will manage this storage account
 7. configure RBAC for storage account - it need to select a special role "storage blob data reader" and provide access to the managed identity created during data share resource creation
-a. NOTE: if that step is not completed succesfully, you will have issues to send snapshot to consumer data store.
+	a. NOTE: if that step is not completed succesfully, you will have issues to send snapshot to consumer data store.
 
 8. send a bunch of files from your laptop (on-prems) to Azure blob by using azcopy
-a. install azcopy: 
+	a. install azcopy: 
 Copy or move data to Azure Storage by using AzCopy v10 | Microsoft Docs
-b. send data with an azcopy command:
+	b. send data with an azcopy command:
 Copy or move data to Azure Storage by using AzCopy v10 | Microsoft Docs
 		
 
