@@ -1,7 +1,7 @@
 ## AzureDataShare
 below are instruction on how to use Azure Data Share between two different Azure Tenants.
 
-**at data "provider" subscription / tenant:
+** at data "provider" subscription / tenant: **
   
 1. register microsoft.datashare resource provider
 2. create storage account for data provider
@@ -23,7 +23,7 @@ below are instruction on how to use Azure Data Share between two different Azure
 		Copy or move data to Azure Storage by using AzCopy v10 | Microsoft Docs
 		
 
-## at data "consumer" subscription / tenant
+** at data "consumer" subscription / tenant **
 
 1. register microsoft.datashare resource provider
 2. create a storage account that will consume (receive data from provider)
@@ -38,6 +38,6 @@ a. the same one that was "invited" at data share resource at provider subscripti
 10. go to your data share (consumer) and configure "received shares" by mapping the provider data with consumer data blob
 11. trigger a full snapshot to be sent from provider to consumer
 12. install "cloudberry drive" from here : Map Cloud Storage as a Network Drive | MSP360™ (CloudBerry Lab) and configure in one laptop as a test
-a. you will need to have the storage account name and key
+	- you will need to have the storage account name and key
 13. test azure blob access through windows file explorer as a network mapped drive
   
