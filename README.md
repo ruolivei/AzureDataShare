@@ -1,7 +1,7 @@
 ## AzureDataShare
 below are instruction on how to use Azure Data Share between two different Azure Tenants.
 
-** at data "provider" subscription / tenant: **
+**at data "provider" subscription / tenant:**
   
 1. register microsoft.datashare resource provider
 2. create storage account for data provider
@@ -23,7 +23,7 @@ below are instruction on how to use Azure Data Share between two different Azure
 		Copy or move data to Azure Storage by using AzCopy v10 | Microsoft Docs
 		
 
-** at data "consumer" subscription / tenant **
+**at data "consumer" subscription / tenant**
 
 1. register microsoft.datashare resource provider
 2. create a storage account that will consume (receive data from provider)
