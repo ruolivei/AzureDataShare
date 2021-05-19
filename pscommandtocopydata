@@ -1,0 +1,1 @@
+azcopy copy "C:\azure\customer\folder\file" "https://stgaccname.blob.core.windows.net/azcopy" --recursive --block-blob-tier Hot
