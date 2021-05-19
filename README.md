@@ -18,9 +18,9 @@ below are instruction on how to use Azure Data Share between two different Azure
 
 8. send a bunch of files from your laptop (on-prems) to Azure blob by using azcopy
 	- install azcopy: 
-		Copy or move data to Azure Storage by using AzCopy v10 | Microsoft Docs
+		(https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10)
 	- send data with an azcopy command:
-		Copy or move data to Azure Storage by using AzCopy v10 | Microsoft Docs
+		(https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#transfer-data)
 		
 
 **at data "consumer" subscription / tenant**
