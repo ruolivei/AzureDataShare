@@ -37,7 +37,7 @@ a. the same one that was "invited" at data share resource at provider subscripti
 9. look for the invitation received from provider and accept it
 10. go to your data share (consumer) and configure "received shares" by mapping the provider data with consumer data blob
 11. trigger a full snapshot to be sent from provider to consumer
-12. install "cloudberry drive" from here : Map Cloud Storage as a Network Drive | MSP360™ (CloudBerry Lab) and configure in one laptop as a test
+12. install "cloudberry drive" from here : (https://www.msp360.com/drive.aspx?__hstc=41219965.f4eb6e85c68b2b45a6312b83219cdd30.1616002618653.1617876663464.1617900790554.27&__hssc=41219965.26.1617900790554&__hsfp=3952834721) and configure in one laptop as a test
 	- you will need to have the storage account name and key
 13. test azure blob access through windows file explorer as a network mapped drive
   
